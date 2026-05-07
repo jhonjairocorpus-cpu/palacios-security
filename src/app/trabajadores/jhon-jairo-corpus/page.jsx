@@ -3,14 +3,12 @@ export default function Page() {
     <div
       style={{
         minHeight: "100vh",
-        background:
-          "linear-gradient(135deg, #000000, #111111, #1a1a1a)",
+        background: "linear-gradient(135deg,#000,#111,#222)",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        fontFamily: "Arial",
-        color: "white",
         padding: "20px",
+        fontFamily: "Arial",
       }}
     >
       <div
@@ -18,29 +16,19 @@ export default function Page() {
           width: "100%",
           maxWidth: "700px",
           background: "rgba(255,255,255,0.05)",
-          border: "2px solid #ff8800",
+          border: "2px solid orange",
           borderRadius: "30px",
           padding: "50px",
-          boxShadow: "0 0 40px rgba(255,136,0,0.4)",
           textAlign: "center",
-          backdropFilter: "blur(10px)",
+          color: "white",
+          boxShadow: "0 0 30px orange",
         }}
       >
-        <img
-          src="https://i.imgur.com/0y0y0y0.png"
-          alt="logo"
-          style={{
-            width: "120px",
-            marginBottom: "20px",
-          }}
-        />
-
         <h1
           style={{
-            fontSize: "55px",
             color: "#00ff88",
+            fontSize: "60px",
             marginBottom: "20px",
-            textShadow: "0 0 20px #00ff88",
           }}
         >
           COLABORADOR ACTIVO
@@ -48,7 +36,7 @@ export default function Page() {
 
         <h2
           style={{
-            fontSize: "40px",
+            fontSize: "45px",
             marginBottom: "10px",
           }}
         >
@@ -57,8 +45,8 @@ export default function Page() {
 
         <h3
           style={{
+            color: "orange",
             fontSize: "35px",
-            color: "#ff8800",
             marginBottom: "40px",
           }}
         >
@@ -68,14 +56,12 @@ export default function Page() {
         <div
           style={{
             background: "rgba(255,255,255,0.05)",
-            padding: "25px",
+            padding: "20px",
             borderRadius: "20px",
-            marginBottom: "25px",
+            marginBottom: "20px",
           }}
         >
-          <p style={{ fontSize: "24px" }}>
-            <strong>EMPRESA:</strong>
-            <br />
+          <p style={{ fontSize: "25px" }}>
             PALACIOS CONSTRUCTORES S.A.S.
           </p>
         </div>
@@ -83,14 +69,12 @@ export default function Page() {
         <div
           style={{
             background: "rgba(255,255,255,0.05)",
-            padding: "25px",
+            padding: "20px",
             borderRadius: "20px",
           }}
         >
-          <p style={{ fontSize: "24px" }}>
-            <strong>CARGO:</strong>
-            <br />
-            OFICIAL
+          <p style={{ fontSize: "25px" }}>
+            CARGO: OFICIAL
           </p>
         </div>
       </div>
