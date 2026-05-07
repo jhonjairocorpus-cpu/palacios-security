@@ -36,7 +36,7 @@ export default function Page() {
           fontSize:"clamp(28px,6vw,55px)",
           marginBottom:"10px"
         }}>
-          JOHAN
+          JAIR
         </h2>
 
         <h3 style={{
@@ -44,7 +44,7 @@ export default function Page() {
           fontSize:"clamp(24px,5vw,45px)",
           marginBottom:"40px"
         }}>
-          GUEVARA
+          VIVEROS
         </h3>
 
         <div style={{
