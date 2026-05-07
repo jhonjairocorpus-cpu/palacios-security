@@ -1,28 +1,99 @@
 export default function Page() {
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center">
+    <div
+      style={{
+        minHeight: "100vh",
+        background:
+          "linear-gradient(135deg, #000000, #111111, #1a1a1a)",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        fontFamily: "Arial",
+        color: "white",
+        padding: "20px",
+      }}
+    >
+      <div
+        style={{
+          width: "100%",
+          maxWidth: "700px",
+          background: "rgba(255,255,255,0.05)",
+          border: "2px solid #ff8800",
+          borderRadius: "30px",
+          padding: "50px",
+          boxShadow: "0 0 40px rgba(255,136,0,0.4)",
+          textAlign: "center",
+          backdropFilter: "blur(10px)",
+        }}
+      >
+        <img
+          src="https://i.imgur.com/0y0y0y0.png"
+          alt="logo"
+          style={{
+            width: "120px",
+            marginBottom: "20px",
+          }}
+        />
 
-      <div className="bg-white/10 p-12 rounded-3xl border border-cyan-400 text-center">
-
-        <span className="bg-green-500 text-black px-6 py-3 rounded-full text-2xl font-black">
+        <h1
+          style={{
+            fontSize: "55px",
+            color: "#00ff88",
+            marginBottom: "20px",
+            textShadow: "0 0 20px #00ff88",
+          }}
+        >
           COLABORADOR ACTIVO
-        </span>
-
-        <h1 className="text-5xl font-black mt-8">
-          JHON JAIRO
         </h1>
 
-        <h2 className="text-4xl text-orange-400 font-bold">
-          CORPUS YATACUE
+        <h2
+          style={{
+            fontSize: "40px",
+            marginBottom: "10px",
+          }}
+        >
+          JHON JAIRO
         </h2>
 
-        <div className="mt-8 space-y-4 text-2xl">
-          <p><b>EMPRESA:</b> PALACIOS CONSTRUCTORES S.A.S.</p>
-          <p><b>CARGO:</b> OFICIAL</p>
+        <h3
+          style={{
+            fontSize: "35px",
+            color: "#ff8800",
+            marginBottom: "40px",
+          }}
+        >
+          CORPUS YATACUE
+        </h3>
+
+        <div
+          style={{
+            background: "rgba(255,255,255,0.05)",
+            padding: "25px",
+            borderRadius: "20px",
+            marginBottom: "25px",
+          }}
+        >
+          <p style={{ fontSize: "24px" }}>
+            <strong>EMPRESA:</strong>
+            <br />
+            PALACIOS CONSTRUCTORES S.A.S.
+          </p>
         </div>
 
+        <div
+          style={{
+            background: "rgba(255,255,255,0.05)",
+            padding: "25px",
+            borderRadius: "20px",
+          }}
+        >
+          <p style={{ fontSize: "24px" }}>
+            <strong>CARGO:</strong>
+            <br />
+            OFICIAL
+          </p>
+        </div>
       </div>
-
     </div>
-  )
+  );
 }
