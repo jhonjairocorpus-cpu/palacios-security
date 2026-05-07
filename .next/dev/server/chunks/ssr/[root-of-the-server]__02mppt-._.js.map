@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/acer/Desktop/palacios-security-completo/palacios-security/src/app/trabajadores/jhon-jairo/page.jsx"],"sourcesContent":["\nexport default function Page() {\n  return (\n    <div className=\"min-h-screen bg-black text-white flex items-center justify-center\">\n      <div>\n        <h1>COLABORADOR ACTIVO</h1>\n        <h2>JHON JAIRO CORPUS YATACUE</h2>\n      </div>\n    </div>\n  );\n}\n"],"names":["Page","className"],"mappings":";;;;;;AACe,SAASA;IACtB,qBACE,sQAAC;QAAIC,WAAU;kBACb,cAAA,sQAAC;;8BACC,sQAAC;8BAAG;;;;;;8BACJ,sQAAC;8BAAG;;;;;;;;;;;;;;;;;AAIZ"}}]
+}
