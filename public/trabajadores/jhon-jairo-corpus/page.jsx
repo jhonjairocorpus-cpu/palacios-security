@@ -1,7 +1,9 @@
 export default function Page() {
   return (
     <div className="min-h-screen bg-black text-white flex items-center justify-center">
+
       <div className="bg-white/10 p-12 rounded-3xl border border-cyan-400 text-center">
+
         <span className="bg-green-500 text-black px-6 py-3 rounded-full text-2xl font-black">
           COLABORADOR ACTIVO
         </span>
@@ -18,7 +20,9 @@ export default function Page() {
           <p><b>EMPRESA:</b> PALACIOS CONSTRUCTORES S.A.S.</p>
           <p><b>CARGO:</b> OFICIAL</p>
         </div>
+
       </div>
+
     </div>
   )
 }
