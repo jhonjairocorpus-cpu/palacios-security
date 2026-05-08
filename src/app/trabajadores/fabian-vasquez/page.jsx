@@ -1,51 +1,80 @@
-// src/app/trabajadores/fabian-vasquez/page.jsx
+"use client";
 
 export default function Page() {
   return (
-    <div style={styles.container}>
-      <div style={styles.card}>
+    <>
+      <div style={styles.container}>
+        <div style={styles.card}>
 
-        <img
-  src="/logo.png"
-  alt="Logo"
-  style={{
-    width: "140px",
-    marginBottom: "20px",
-  }}
-/>
-        
-        <img
-          src="/fotos/fabian.jpg"
-          alt="Fabian"
-          style={styles.image}
-        />
+          <img
+            src="/logo.png"
+            alt="Logo"
+            style={styles.logo}
+          />
 
-        <h1 style={styles.status}>
-          COLABORADOR ACTIVO
-        </h1>
+          <img
+            src="/fotos/fabian.png"
+            alt="Trabajador"
+            style={styles.image}
+          />
 
-        <h2 style={styles.name}>
-          FABIAN
-        </h2>
+          <h1 className="pulse-title" style={styles.status}>
+            COLABORADOR ACTIVO
+          </h1>
 
-        <h3 style={styles.lastname}>
-          VASQUEZ
-        </h3>
+          <h2 style={styles.name}>
+            FABIAN ESTIVEN
+          </h2>
 
-        <div style={styles.infoBox}>
-          <p style={styles.text}>
-            PALACIOS CONSTRUCTORES S.A.S.
-          </p>
+          <h3 style={styles.lastname}>
+            VASQUEZ RIOS
+          </h3>
+
+          <div style={styles.infoBox}>
+            <p style={styles.text}>
+              PALACIOS CONSTRUCTORES S.A.S.
+            </p>
+          </div>
+
+          <div style={styles.infoBox}>
+            <p style={styles.text}>
+              CARGO: OFICIAL
+            </p>
+          </div>
+
         </div>
-
-        <div style={styles.infoBox}>
-          <p style={styles.text}>
-            CARGO: COLABORADOR
-          </p>
-        </div>
-
       </div>
-    </div>
+
+      <style jsx>{`
+        .pulse-title {
+          animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+          0% {
+            transform: scale(1);
+            text-shadow:
+              0 0 10px #00ff99,
+              0 0 20px #00ff99;
+          }
+
+          50% {
+            transform: scale(1.05);
+            text-shadow:
+              0 0 20px #00ff99,
+              0 0 40px #00ff99,
+              0 0 60px #00ff99;
+          }
+
+          100% {
+            transform: scale(1);
+            text-shadow:
+              0 0 10px #00ff99,
+              0 0 20px #00ff99;
+          }
+        }
+      `}</style>
+    </>
   );
 }
 
@@ -70,6 +99,11 @@ const styles = {
     textAlign: "center",
     color: "white",
     boxShadow: "0 0 35px orange",
+  },
+
+  logo: {
+    width: "140px",
+    marginBottom: "20px",
   },
 
   image: {

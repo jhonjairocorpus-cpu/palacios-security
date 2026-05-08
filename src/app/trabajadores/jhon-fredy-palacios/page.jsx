@@ -1,5 +1,5 @@
-// src/app/trabajadores/jhon-fredy-palacios/page.jsx
 "use client";
+
 export default function Page() {
   return (
     <>
@@ -9,15 +9,12 @@ export default function Page() {
           <img
             src="/logo.png"
             alt="Logo"
-            style={{
-              width: "140px",
-              marginBottom: "20px",
-            }}
+            style={styles.logo}
           />
 
           <img
             src="/fotos/jhon-fredy.png"
-            alt="Jhon Fredy"
+            alt="Trabajador"
             style={styles.image}
           />
 
@@ -41,7 +38,7 @@ export default function Page() {
 
           <div style={styles.infoBox}>
             <p style={styles.text}>
-              CARGO: GERENTE GENERAL
+              CARGO: GERENTE
             </p>
           </div>
 
@@ -102,6 +99,11 @@ const styles = {
     textAlign: "center",
     color: "white",
     boxShadow: "0 0 35px orange",
+  },
+
+  logo: {
+    width: "140px",
+    marginBottom: "20px",
   },
 
   image: {
