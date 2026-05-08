@@ -1,5 +1,5 @@
 // src/app/trabajadores/jhon-fredy-palacios/page.jsx
-
+"use client";
 export default function Page() {
   return (
     <>
