@@ -20,7 +20,7 @@ export default function Page() {
           style={styles.image}
         />
 
-        <h1 style={styles.status}>
+        <h1 className="pulse-title" style={styles.status}>
           COLABORADOR ACTIVO
         </h1>
 
@@ -113,3 +113,32 @@ const styles = {
     margin: 0,
   },
 };
+<style jsx>{`
+  .pulse-title {
+    animation: pulse 1.5s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      text-shadow:
+        0 0 10px #00ff99,
+        0 0 20px #00ff99;
+    }
+
+    50% {
+      transform: scale(1.05);
+      text-shadow:
+        0 0 20px #00ff99,
+        0 0 40px #00ff99,
+        0 0 60px #00ff99;
+    }
+
+    100% {
+      transform: scale(1);
+      text-shadow:
+        0 0 10px #00ff99,
+        0 0 20px #00ff99;
+    }
+  }
+`}</style>
