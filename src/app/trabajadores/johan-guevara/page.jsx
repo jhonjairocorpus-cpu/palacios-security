@@ -13,7 +13,7 @@ export default function Page() {
           />
 
           <img
-            src="/fotos/johan.png"
+            src="/fotos/sebastian.png"
             alt="Trabajador"
             style={styles.image}
           />
