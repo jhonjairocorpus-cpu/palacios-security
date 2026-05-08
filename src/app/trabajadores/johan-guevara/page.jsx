@@ -13,7 +13,7 @@ export default function Page() {
           />
 
           <img
-            src="/fotos/NOMBRE-FOTO.png"
+            src="/fotos/johan.png"
             alt="Trabajador"
             style={styles.image}
           />
@@ -23,11 +23,11 @@ export default function Page() {
           </h1>
 
           <h2 style={styles.name}>
-            NOMBRE
+            JOHAN SEBASTIAN
           </h2>
 
           <h3 style={styles.lastname}>
-            APELLIDO
+            GUEVARA
           </h3>
 
           <div style={styles.infoBox}>
