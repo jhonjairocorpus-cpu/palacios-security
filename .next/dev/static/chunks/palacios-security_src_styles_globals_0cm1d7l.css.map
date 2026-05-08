@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/acer/Desktop/palacios-security-completo/palacios-security/src/styles/globals.css"],"sourcesContent":["\nbody{\n  margin:0;\n  background:black;\n  color:white;\n  font-family:Arial;\n}\n"],"names":[],"mappings":"AACA"}}]
-}
