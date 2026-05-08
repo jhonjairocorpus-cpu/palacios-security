@@ -1,24 +1,106 @@
+// src/app/trabajadores/johan-guevara/page.jsx
+
 export default function Page() {
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center">
-      <div className="bg-white/10 p-12 rounded-3xl border border-cyan-400 text-center">
-        <span className="bg-green-500 text-black px-6 py-3 rounded-full text-2xl font-black">
-          COLABORADOR ACTIVO
-        </span>
+    <div style={styles.container}>
+      <div style={styles.card}>
 
-        <h1 className="text-5xl font-black mt-8">
-          JOHAN SEBASTIAN
+        <img
+          src="/fotos/johan.jpg"
+          alt="Johan Guevara"
+          style={styles.image}
+        />
+
+        <h1 style={styles.status}>
+          COLABORADOR ACTIVO
         </h1>
 
-        <h2 className="text-4xl text-orange-400 font-bold">
-          GUEVARA
+        <h2 style={styles.name}>
+          JOHAN
         </h2>
 
-        <div className="mt-8 space-y-4 text-2xl">
-          <p><b>EMPRESA:</b> PALACIOS CONSTRUCTORES S.A.S.</p>
-          <p><b>CARGO:</b> OFICIAL</p>
+        <h3 style={styles.lastname}>
+          GUEVARA
+        </h3>
+
+        <div style={styles.infoBox}>
+          <p style={styles.text}>
+            PALACIOS CONSTRUCTORES S.A.S.
+          </p>
         </div>
+
+        <div style={styles.infoBox}>
+          <p style={styles.text}>
+            CARGO: COLABORADOR
+          </p>
+        </div>
+
       </div>
     </div>
-  )
+  );
 }
+
+const styles = {
+  container: {
+    minHeight: "100vh",
+    background: "linear-gradient(135deg,#000,#111,#1f1f1f)",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    padding: "20px",
+    fontFamily: "Arial",
+  },
+
+  card: {
+    width: "100%",
+    maxWidth: "700px",
+    background: "rgba(255,255,255,0.05)",
+    border: "2px solid orange",
+    borderRadius: "35px",
+    padding: "30px 20px",
+    textAlign: "center",
+    color: "white",
+    boxShadow: "0 0 35px orange",
+  },
+
+  image: {
+    width: "220px",
+    height: "220px",
+    borderRadius: "50%",
+    objectFit: "cover",
+    border: "5px solid orange",
+    marginBottom: "30px",
+    boxShadow: "0 0 25px orange",
+  },
+
+  status: {
+    color: "#00ff99",
+    fontSize: "clamp(40px,8vw,80px)",
+    lineHeight: "1",
+    marginBottom: "30px",
+    fontWeight: "900",
+  },
+
+  name: {
+    fontSize: "clamp(28px,6vw,55px)",
+    marginBottom: "10px",
+  },
+
+  lastname: {
+    color: "orange",
+    fontSize: "clamp(24px,5vw,45px)",
+    marginBottom: "40px",
+  },
+
+  infoBox: {
+    background: "rgba(255,255,255,0.06)",
+    padding: "25px",
+    borderRadius: "25px",
+    marginBottom: "20px",
+  },
+
+  text: {
+    fontSize: "clamp(18px,4vw,30px)",
+    margin: 0,
+  },
+};

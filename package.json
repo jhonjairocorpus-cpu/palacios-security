@@ -1,17 +1,8 @@
+
 {
   "name": "palacios-security",
   "private": true,
   "scripts": {
     "dev": "next dev"
-  },
-  "dependencies": {
-    "next": "^16.2.6",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.5.0",
-    "postcss": "^8.5.14",
-    "tailwindcss": "^4.2.4"
   }
 }
