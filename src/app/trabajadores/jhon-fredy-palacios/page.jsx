@@ -6,7 +6,16 @@ export default function Page() {
       <div style={styles.card}>
 
         <img
-          src="/fotos/jhon-fredy.jpg"
+  src="/logo.png"
+  alt="Logo"
+  style={{
+    width: "140px",
+    marginBottom: "20px",
+  }}
+/>
+
+        <img
+          src="/fotos/jhon-fredy.png"
           alt="Jhon Fredy"
           style={styles.image}
         />
