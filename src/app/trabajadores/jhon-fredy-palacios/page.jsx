@@ -41,7 +41,7 @@ export default function Page() {
 
           <div style={styles.infoBox}>
             <p style={styles.text}>
-              CARGO: GERENTE
+              CARGO: GERENTE GENERAL
             </p>
           </div>
 
