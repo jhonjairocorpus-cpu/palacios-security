@@ -15,7 +15,7 @@ export default function Page() {
 />
 
         <img
-          src="/fotos/jhon-jairo.jpeg"
+          src="/fotos/jhon-jairo.png"
           alt="Jhon Jairo"
           style={styles.image}
         />
